@@ -1,0 +1,31 @@
+﻿Import turtle and random
+700x700 
+
+
+Palette = [(255,0,0)#red, (255,128,0)#orange, (255,255,0)#yellow, (128,255,0)#lime, (0,255,0)#green, (0,255,128)#greenblue, (0,255,255)#mint, (0,128,255)#lightblue, (0,0,255)#blue, (127,0,255)#bluepurple, (255,0,255)#purple, (255,0,127)#pink]
+
+
+Create 2 turtles (t1,t2)
+
+
+For loop range(30)
+        For loop in range(2) #turtle 1 draws circles at random points
+                T1.goto (randInt(-300,300),randInt(-300,300)
+T1 down
+                T1.color (random.choice(palette))
+                t1.begin_fill()
+                T1.circle (random.randInt(0,10)
+                t1.end_fill()
+                T1.up
+        
+        For loop in range(2) #turtle 2 draws squares at random points
+                t2.goto(randInt(-300,300),randInt(-300,300)
+                T2.down 
+                t2.color(random.choice(palette)
+                X = randInt(50,150)
+                t2.begin_fill()
+                For loop range(4)
+                        t2.forward(X)
+                        t2.right(90)
+                t2.end_fill()
+                t2.up
